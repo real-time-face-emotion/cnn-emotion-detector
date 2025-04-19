@@ -25,74 +25,40 @@ tensorflow (2.x version)
 
 keras
 
-
-
 opencv-python
-
-
 
 numpy
 
-
-
 pandas
-
-
 
 matplotlib
 
-
-
 seaborn
-
-
 
 imblearn
 
-
-
 scikit-learn
-
-
-
 
 ### How to Use It
 
 ##### Train the Model
 
-
-
-
-
 Fire up DL.ipynb in Jupyter Notebook or Google Colab.
 
-
-
 Make sure fer2013.csv is in the folder.
-
-
 
 Run all the cells to prep the data, train the CNN, and save the model as emotion_recognition_model.h5. It uses some smart tricks like data augmentation and oversampling to balance things out. A GPU (like Colab’s T4) speeds it up!
 
 ### See It Live
 
 
-
-
-
 Check that emotion_recognition_model.h5 and haarcascade_frontalface_default.xml (included) are in the folder.
-
-
 
 Run this to start the fun:
 
 python real_time_emotion.py
 
-
-
 A window pops up with your webcam feed, showing faces with emotion labels like “Happiness” in a green box.
-
-
 
 Hit q to close it when you’re done.
 
